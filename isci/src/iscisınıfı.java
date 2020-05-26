@@ -1,55 +1,55 @@
 
-public class iscisınıfı {
+public class iscisÄ±nÄ±fÄ± {
 
-	private String adı, soyadı;
-	private int calıs_sa, saat_üc;
+	private String adÄ±, soyadÄ±;
+	private int calÄ±s_sa, saat_Ã¼c;
 
 
 public void setAd(String ad) {
-this.adı=ad;
+this.adÄ±=ad;
 }
 public String getAd() {
-	return adı;
+	return adÄ±;
 }
 public void setSoyad(String soyad) {
 	
-	this.soyadı=soyad;
+	this.soyadÄ±=soyad;
 }
 public String getSoyad() {
-	return soyadı;
+	return soyadÄ±;
 }
-public void setCalıs_sa(int calıs_sa) {
-	this.calıs_sa=calıs_sa;
+public void setCalÄ±s_sa(int calÄ±s_sa) {
+	this.calÄ±s_sa=calÄ±s_sa;
 }
-public int getCalıs_sa() {
-	return calıs_sa;
+public int getCalÄ±s_sa() {
+	return calÄ±s_sa;
 }
-public void setSaat_üc(int saat_üc) {
-	this.saat_üc=saat_üc;	
+public void setSaat_Ã¼c(int saat_Ã¼c) {
+	this.saat_Ã¼c=saat_Ã¼c;	
 }
-public int getSaat_üc() {
-	return saat_üc;
+public int getSaat_Ã¼c() {
+	return saat_Ã¼c;
 }
 
-public int hesap(int calıs_sa,int saat_üc) {
-	if(calıs_sa>100) {
-		int a=calıs_sa-100;
-		return saat_üc*100 + a*25;
+public int hesap(int calÄ±s_sa,int saat_Ã¼c) {
+	if(calÃ½s_sa>100) {
+		int a=calÃ½s_sa-100;
+		return saat_Ã¼c*100 + a*25;
 	}
-	else return calıs_sa*saat_üc;
+	else return calÄ±s_sa*saat_Ã¼c;
 }
-public iscisınıfı() {
+public iscisÄ±nÄ±fÄ±() {
 	
-	adı="girilmedi";
-	soyadı="girilmedi";
-	calıs_sa=0;
-	saat_üc=0;
+	adÃ½="girilmedi";
+	soyadÃ½="girilmedi";
+	calÃ½s_sa=0;
+	saat_Ã¼c=0;
 }
-public iscisınıfı(String a_ad,String a_soyad,int a_calıs_sa,int a_saat_üc) {
-	adı=a_ad;
-	soyadı=a_soyad;
-	calıs_sa=a_calıs_sa;
-	saat_üc=a_saat_üc;
+public iscisÄ±nÄ±fÄ±(String a_ad,String a_soyad,int a_calÄ±s_sa,int a_saat_Ã¼c) {
+	asÄ±=a_ad;
+	soyadÄ±=a_soyad;
+	calÄ±s_sa=a_calÄ±s_sa;
+	saat_Ã¼c=a_saat_Ã¼c;
 }
 
 }
