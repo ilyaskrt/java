@@ -1,19 +1,20 @@
 import java.util.Scanner;
-
+//bir iscinin bilgileri tanÄ±mlanmistir
+//bir iscinin bilgileride kullanicidan alÄ±nÄ±yor ve aylik kazanc hesaplaniyor
 public class test {
 	
 	public static void main(String[] args) {
 		int sonuc;
 		Scanner giris= new Scanner(System.in);
-		iscisınıfı i1 = new iscisınıfı("İlyas","Kurt",60,7);
-		iscisınıfı i2= new iscisınıfı();
-		System.out.println("Sırayla İsim Soyisim Çalışma saati ve Saatlik ücreti giriniz.");
+		iscisÃ½nÃ½fÃ½ i1 = new iscisinifi("ilyas","Kurt",60,7);
+		iscisÃ½nÃ½fÃ½ i2= new iscisinifi();
+		System.out.println("Sirayla isim Soyisim Ã‡aliÃ¾ma saati ve Saatlik Ã¼creti giriniz.");
 		i2.setAd(giris.nextLine());
 		i2.setSoyad(giris.nextLine());
-		i2.setCalıs_sa(giris.nextInt());
-		i2.setSaat_üc(giris.nextInt());
-		System.out.println("Adı "+i2.getAd()+" Soyadı "+i2.getSoyad()+" Toplam ücret= "+i2.hesap(i2.getCalıs_sa(),i2.getSaat_üc()));
-		System.out.println("Adı "+i1.getAd()+" Soyadı "+i1.getSoyad()+" Toplam ücret= "+i1.hesap(i1.getCalıs_sa(),i1.getSaat_üc()));
+		i2.setCalÃ½s_sa(giris.nextInt());
+		i2.setSaat_Ã¼c(giris.nextInt());
+		System.out.println("AdÃ½ "+i2.getAd()+" Soyadi "+i2.getSoyad()+" Toplam Ã¼cret= "+i2.hesap(i2.getCalis_sa(),i2.getSaat_Ã¼c()));
+		System.out.println("AdÃ½ "+i1.getAd()+" Soyadi "+i1.getSoyad()+" Toplam Ã¼cret= "+i1.hesap(i1.getCalis_sa(),i1.getSaat_Ã¼c()));
 		
 	
 	}
